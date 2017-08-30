@@ -230,7 +230,7 @@ a:after {
 
 #skillswrap {
 	background: #2c3e50;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 	color: white;
 	max-height: 230px;
@@ -444,4 +444,8 @@ img.mySlides{
   width: 600px;
   height: 400px;
   box-shadow: 7px 7px 40px #999;
+}
+h5#habilities{
+  font-weight: bold;
+  padding-top: 50px;
 }
