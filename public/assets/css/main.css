@@ -268,8 +268,8 @@ a:after {
 
 #c {
 	background: black;
-	height: 100px;
-	padding-bottom: 15px;
+	min-height: 100px;
+	padding-bottom: 10px;
   padding-top: 10px;
 }
 
@@ -455,7 +455,7 @@ h5#contacts{
   font-weight: bold;
   padding-top: 120px;
 }
-h4. #cont{
+h4#cont{
   font-weight: bold;
   color: white;
 }
