@@ -1,0 +1,470 @@
+ /* Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    height: 1px;
+    background-color: gray;
+    position: relative;
+    top: -30px;
+    width: 100%;
+}
+
+
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #fff;
+}
+
+#topbar-inner {
+	background: #111;
+	line-height: 0;
+	text-align: center;
+}
+
+
+#section-topbar ul#nav {
+	/*display: inline-block;*/
+	position: left;
+	margin: 0;
+	padding: 0;
+	border-left: 20px solid #222;
+	border-right: 15px solid #222;
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+}
+
+#section-topbar ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+
+#section-topbar ul#nav a {
+  /*display: block;*/
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+}
+
+#section-topbar ul#nav a#contact-icon {
+  position: relative;
+  left: 885px;
+}
+
+	#section-topbar ul#nav a:hover {
+	  background: #222;
+	  text-decoration: none;
+	  border-left: 1px solid #111;
+	}
+
+	#section-topbar ul#nav .active a {
+		background: #44bbaa;
+		border-left: 1px solid #111;
+	}
+
+		#section-topbar ul#nav .active a:hover {
+			background: #44bbaa;
+		}
+#section-topbar i {
+	font-size: 25px;
+}
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+	/*//background: url(../img/header-bg.jpg) no-repeat center top;*/
+	background: #2980b9 url('http://s1.picswalls.com/wallpapers/2014/07/24/latest-pattern-wallpaper_113041650_88.jpg') repeat 0 0;
+	  -webkit-animation: 10s linear 0s normal none infinite animate;
+  -moz-animation: 10s linear 0s normal none infinite animate;
+  -ms-animation: 10s linear 0s normal none infinite animate;
+  -o-animation: 10s linear 0s normal none infinite animate;
+  animation: 10s linear 0s normal none infinite animate;
+	margin-top: 60px;
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 520px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@-webkit-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+  from {background-position:0 0;}
+  to {background-position: 500px 0;}
+}
+
+#headerwrap h1 {
+	font-size: 80px;
+	color: white;
+}
+
+#headerwrap h3 {
+	font-size: 20px;
+	color: white;
+}
+
+/* Intnro Wrap */
+
+#intro {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+	max-height: 65px;
+} 
+
+#intro h5, p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+#skillswrap {
+	background: #2c3e50;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: white;
+	max-height: 230px;
+}
+
+#skillswrap h5, p {
+	color: white;
+}
+
+#footwrap {
+	background: #2f2f2f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
+
+
+#c {
+	background: black;
+	min-height: 55px;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2f2f2f;
+}
+
+.desc t {
+	color: #34495e;
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #34495e;
+}
+
+.desc more {
+	color: #95a5a6;
+}
+
+
+.sm {
+	font-size: 12px;
+}
+
+div.#hola{
+	vertical-align: super;
+}
+
+div#text_about{
+	background: #2c3e50;
+	position: relative;
+	bottom:50px;
+	max-height: 120px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	align-content: center;
+}
+
+div#blue_border{
+	background: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	max-height: 65px;
+	bottom:500px;
+}
+div#text_abouttwo{
+	background: #fff;
+	position: relative;
+	bottom:50px;
+	max-height: 20px;
+	font-size: 20px;
+}
+div#education_text{
+	font-size: 17px;
+	top: 100px;
+}
+
+div#education_work{
+	/*background-color: yellow;*/
+	font-size: 17px;
+	top: 200px;
+}
+
+/*CSS*/
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 96px;
+  color: #ff9900;
+}
+h3{
+  color: white;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 5vh 5%;
+}
+
+.panel {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 466px;
+  user-select: none;
+  pointer-events: none; 
+  background-color: transparent !important;
+}
+
+.panel__content-col {
+  flex-basis: 25%;
+}
+
+.panel__content {
+  position: absolute;
+  top: 26%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.panel__text {
+  display: inline-block;
+  text-align: right;
+}
+
+.panel__img-col {
+  flex-basis: 70%;
+    box-shadow: 0px 20px 100.28px 8.72px rgba(0, 0, 0, 0.35);
+}
+
+
+.panel__title {
+  margin: 0;
+}
+
+.panel__addr {
+  position: relative;
+  display: flex;
+  margin: 20px 10px 0px 0px;
+  justify-content: flex-end;
+  
+  span {
+    display: block;
+    margin: 15px 14px 0 0;
+    height: 1px;
+    width: 30px;
+    background-color: #fff;
+  }
+}
+
+.panel__line {
+  width: 83%;
+  height: 4px;
+  margin: 20px 100px 0px 110px;
+  background-color: #fff;
+}
+
+.panel__secondline {
+  width: 39%;
+  height: 4px;
+  margin: 20px 0px 0px 110px;
+  background-color: #fff;
+}
+
+.panel__thirdline {
+  border-left:  thick solid #ff0000;
+  background-color: #fff;
+}
+
+.panel__img-col {
+  width: 100%;
+}
+
+.panel__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.panel__img-col{
+  margin: 20px 10px 75px 400px;
+  max-width: 700px;
+  max-height: 500px;
+}
+img.mySlides{
+  width: 600px;
+  height: 400px;
+  box-shadow: 7px 7px 40px #999;
+}
